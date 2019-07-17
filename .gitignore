@@ -5,7 +5,7 @@ data/
 *.jpg
 *.jpeg
 *.png
-
+*.h5
 
 # Others
 __pycache__

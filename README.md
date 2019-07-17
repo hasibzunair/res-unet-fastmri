@@ -17,7 +17,12 @@ fastMRI # fastMRI github repository for helpers and utils
 data/
 	singlecoil_train/
 			# *.h5 files of MRI data
+            
+    singlecoil_train_images_4x/
+                            low/
+                                # undersampled data points
+                            high/
+                                # ground truth reconstructions              
 ```
-
 
 More details coming sooooon!
