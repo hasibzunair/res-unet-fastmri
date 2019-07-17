@@ -1,0 +1,12 @@
+# Folders
+data/
+
+# Extensions
+*.jpg
+*.jpeg
+*.png
+
+
+# Others
+__pycache__
+.ipynb_checkpoints
