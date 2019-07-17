@@ -2,7 +2,7 @@ The project is structured as follows.
 
 ### Codebase structure
 ```
-data # training data
+data # training data provided by competition
 fastMRI # fastMRI github repository for helpers and utils
 
 
