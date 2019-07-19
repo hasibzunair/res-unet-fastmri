@@ -2,7 +2,7 @@ The project is structured as follows.
 
 ### Codebase structure
 ```
-data # training data provided by competition
+dataset # training data provided by competition
 fastMRI # fastMRI github repository for helpers and utils
 
 
@@ -14,11 +14,11 @@ fastMRI # fastMRI github repository for helpers and utils
 #### Dataset directory strucuture:
 
 ```
-data/
+dataset/
 	singlecoil_train/
 			# *.h5 files of MRI data
             
-    singlecoil_train_images_4x/
+    singlecoil_train_images_48x/
                             low/
                                 # undersampled data points
                             high/
