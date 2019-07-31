@@ -10,3 +10,11 @@ def create_directory(directory):
     '''
     if not os.path.exists(directory):
         os.makedirs(directory)
+        
+        
+def get_number(filename):
+    return int(filename[:filename.find('.')])
+
+def sort_paths(paths):
+    paths.sort(key = get_number)
+    return paths
