@@ -18,11 +18,15 @@ dataset/
 	singlecoil_train/
 			# *.h5 files of MRI data
             
-    singlecoil_train_images_48x/
+    singlecoil_test_v2/
+            # *h5 raw test samples
+            
+    singlecoil_train_3D_images_48x/
                             low/
-                                # undersampled data points
+                                # undersampled 3D image volumes
                             high/
-                                # ground truth reconstructions              
+                                # ground truth 3D  image volumes
+                            
 ```
 
 More details coming sooooon!
