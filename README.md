@@ -11,11 +11,11 @@ This work is implemented in Python 3.6 and Keras using Tensorflow as backend.
 *    Python 3.6
 
 ## Directory strucuture and usage
-`media` : Contains supporting material for README.md
-`dataset` : training data provided by competition
-`fastMRI` : fastMRI github repository for helpers and utils
-*.ipynb # notebooks and python scripts
-*.py
+* `media` : Contains supporting material for README.md
+* `dataset` : training data provided by competition
+* `fastMRI` : fastMRI github repository for helpers and utils
+* *.ipynb # notebooks and python scripts
+* *.py
 
 ## Dataset directory strucuture:
 
