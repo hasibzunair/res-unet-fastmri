@@ -29,4 +29,7 @@ dataset/
                             
 ```
 
+#### Data
+![](media/mri_high.gif) ![](media/mri_low.gif)
+
 More details coming sooooon!
