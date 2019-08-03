@@ -1,5 +1,7 @@
 ## fastMRI Image Reconstruction Challenge 2019.
 
+![](media/mri_high.gif) | ![](media/mri_low.gif)
+
 The project is structured as follows.
 
 ## Challenge description
@@ -33,11 +35,5 @@ dataset/
                                     # ground truth 3D  image volumes
                            
 ```
-
-## Data
-
-Here is a single MRI scan showing both undersampled and ground truth.
-
-![](media/mri_high.gif) | ![](media/mri_low.gif)
 
 More details coming sooooon!
