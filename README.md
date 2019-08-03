@@ -35,7 +35,8 @@ dataset/
                            
 ```
 
-#### Data
+### Data
+
 Here is a single MRI scan showing both undersampled and ground truth.
 
 ![](media/mri_high.gif) | ![](media/mri_low.gif)
