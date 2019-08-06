@@ -55,3 +55,15 @@ while True:
 
 print("All slices shown")
 cv2.destroyAllWindows()
+
+'''# GIF MAKER
+import imageio
+
+filenames = sort_paths(os.listdir("MRI/low"))
+
+images = []
+for filename in filenames:
+    images.append(imageio.imread("MRI/low/"+filename))
+print(len(images))
+imageio.mimsave('mri_low.gif', images, duration=0.07)
+'''
