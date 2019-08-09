@@ -1,6 +1,7 @@
 # Experiment and dataset folders
 dataset/
 experimental/
+models/
 
 # Extensions
 *.jpg
