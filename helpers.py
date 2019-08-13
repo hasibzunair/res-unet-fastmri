@@ -1,3 +1,4 @@
+''' fastMRI helper script'''
 import os 
 
 def create_directory(directory):
@@ -18,3 +19,13 @@ def get_number(filename):
 def sort_paths(paths):
     paths.sort(key = get_number)
     return paths
+
+
+def normalize(image):
+    flat = image.flatten()
+    MIN_BOUND = min(flat)
+    MAX_BOUND = max(flat)
+    image = (image - MIN_BOUND) / (MAX_BOUND - MIN_BOUND)
+    image[image>1] = 1.
+    image[image<0] = 0.
+    return image

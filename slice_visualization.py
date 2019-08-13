@@ -13,10 +13,14 @@ Fancy program which shows the MRI scan slice by slice
 image_number = "1"
 
 
-img_3d = np.load("/home/hasib/MRI-reconstruction/dataset/singlecoil_train_3D_images_48x/high/{}.npy".format(image_number))
-img_3d = T.to_tensor(img_3d)
-img_3d, _, _ = T.normalize_instance(img_3d)
-img_3d = np.abs(img_3d.numpy())
+img_3d = np.load("/home/hasib/MRI-reconstruction/dataset/singlecoil_train_3D_images_48x_normalized/high/{}.npy".format(image_number))
+
+
+# If not normalized, uncomment following lines
+#img_3d = T.to_tensor(img_3d)
+#img_3d, _, _ = T.normalize_instance(img_3d)
+#img_3d = np.abs(img_3d.numpy())
+
 
 print(img_3d.shape)
 print("p(UP) and l(DOWN) to control slices")
