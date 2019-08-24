@@ -1,5 +1,6 @@
 ''' fastMRI helper script'''
 import os 
+import matplotlib.pyplot as plt
 
 def create_directory(directory):
     '''
@@ -29,3 +30,13 @@ def normalize(image):
     image[image>1] = 1.
     image[image<0] = 0.
     return image
+
+def plot_hist(img):
+    img_flat = img.flatten()
+    print(min(img_flat), max(img_flat))
+    plt.hist(img_flat, bins=20, color='c')
+    plt.title("Original input data distribution")
+    plt.xlabel("Raw")
+    plt.grid(True)
+    plt.ylabel("Frequency")
+    plt.show()
