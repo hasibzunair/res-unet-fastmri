@@ -1,0 +1,6 @@
+dataset/
+	single_2D/
+		trainA #low res
+		trainB #high res
+		testA #low res
+		testB # high res
