@@ -6,7 +6,7 @@ The project is structured as follows.
 
 ### Challenge description
 
-Given an undersampled MRI scan, the goal is to reconstruct a high resolution MRI scan. 
+Given an undersampled knee MRI scan, the goal is to reconstruct a high resolution knee MRI scan. More details about the dataset and task can be found [here](https://fastmri.org/dataset/). 
 
 ### Dependencies
 This work is implemented in Python 3.6 and Keras using Tensorflow as backend.
