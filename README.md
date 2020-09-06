@@ -42,8 +42,8 @@ dataset/
 
 Our final submission logs are shown below. Among the other participants which came through to the final leaderboard, we were last!
 
-<p align="center">
-<a href="#"><img src="media/final_result.png"></a>
+<p align="left">
+<a href="#"><img src="media/final_result.png" width="50%"></a>
 </p>
 
 ### Reference to other models
