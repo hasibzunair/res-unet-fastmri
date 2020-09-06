@@ -6,7 +6,12 @@ The project is structured as follows.
 
 ### Challenge description
 
-Given an undersampled knee MRI scan, the goal is to reconstruct a high resolution knee MRI scan. More details about the dataset and task can be found [here](https://fastmri.org/dataset/). 
+Given an undersampled knee MRI scan, the goal is to reconstruct a high resolution knee MRI scan. More details about the dataset and task can be found [here](https://fastmri.org/dataset/).
+
+
+### Our method
+
+We processed the data at the slice level. For each knee MRI low resolution, there was a corresponding high resolution knee MRI. On this processed data, we trained a U-Net architecture with a pretrained ResNet backbone on the knee MRI slices. Refer to [this](https://github.com/hasibzunair/MRI-reconstruction/blob/master/unet.ipynb) notebook for code implementation.
 
 ### Dependencies
 This work is implemented in Python 3.6 and Keras using Tensorflow as backend.
@@ -38,9 +43,9 @@ dataset/
                            
 ```
 
-### Results
+### Challenge Leaderboard 2019
 
-Our final submission logs are shown below. Among the other participants which came through to the final leaderboard, we were last!
+A total of 17 teams came into the final leaderboard, among which we were the last! Some logs are shown below.
 
 <p align="center">
 <a href="#"><img src="media/final_result.png" width="80%"></a>
