@@ -1,4 +1,4 @@
-# fastMRI Image Reconstruction Challenge 2019 (4x single-coil track)
+## fastMRI Image Reconstruction Challenge 2019 (Single-coil track)
 
 ![](media/mri_low.gif) | ![](media/mri_high.gif)
 
@@ -42,7 +42,18 @@ dataset/
 
 Our final submission logs are shown below. Among the other participants which came through to the final leaderboard, we were last!
 
-![](media/final_result.png)
+<p align="center">
+<a href="#"><img src="media/final_result.png"></a>
+</p>
+
+### Reference to other models
+
+Some helper scripts are based on https://github.com/facebookresearch/fastMRI.
+
+### License
+
+Your driver's license.
+
 
 
 
